@@ -44,8 +44,3 @@ services:
     command: sh -c "redis-server /usr/local/etc/redis/redis.conf"
     external_links:
       - redis-master
-
-networks:
-  default:
-    external:
-      name: peerorder_default
